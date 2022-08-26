@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹/앱 퍼블리싱 수업</title>
+    <link href="css/main.css" rel="stylesheet" />
+
+    <script src="../../lib/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function(){
+            $('.publ .menu li').click(function(){
+                $('.menu li').removeClass('on');
+                $(this).addClass('on');
+
+                $('.publ .cont').removeClass('on');
+                $('.publ .cont').eq($(this).index()).addClass('on');
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <a href="../../index.html">
+                <img src="../../img/footer_logo.png" alt="하수정" />
+            </a>
+        </h1>
+        <p>jwebdew</p>
+    </header>
+    <section class="publ">
+        <ul class="menu">
+            <li>웹디자인</li>
+            <li>영상편집</li>
+            <li>재직자 기초</li>
+            <li class="on">재직자 중급</li>
+        </ul>
+        <div class="cont"></div>
+        <div class="cont"></div>
+        <div class="cont"><!-- 03 -->
+            <!-- 재직자 기초 03 -->
+
+            <article>
+                <figure>
+                    <img src="img/res_hd.png" alt="" />
+                </figure>
+                <div>
+                    <h4>반응형 헤더 변화</h4>
+                    <p><span>#반응형</span> #반응형헤더 #(feat.script) #반응형지도 #메인비주얼고정</p>
+                    <ul>
+                        <li><a href="https://jwebdew.github.io/res_hd/">Design</a></li>
+                        <li><a href="https://github.com/jwebdew/res_hd">Code</a></li>
+                    </ul>
+                </div><!-- .info end -->
+            </article>
+
+            <article>
+                <figure>
+                    <img src="img/map.png" alt="" />
+                </figure>
+                <div>
+                    <h4>반응형 지도</h4>
+                    <p><span>#반응형</span> #지도 #카카오지도 #다음지도 #배경이미지 #배경이미지고정</p>
+                    <ul>
+                        <li><a href="https://jwebdew.github.io/map/map.html">Design</a></li>
+                        <li><a href="https://github.com/jwebdew/map">Code</a></li>
+                    </ul>
+                </div><!-- .info end -->
+            </article>
+
+
+
+            <article>
+                <figure>
+                    <img src="img/res02.png" alt="" />
+                </figure>
+                <div>
+                    <h4>반응형 레이아웃 변화<br />(플렉스레이아웃사용)</h4>
+                    <p><span>#반응형</span> #미디어쿼리 #media screen #responsive #max-width</p>
+                    <ul>
+                        <li><a href="https://jwebdew.github.io/res02/">Design</a></li>
+                        <li><a href="https://github.com/jwebdew/res02">Code</a></li>
+                    </ul>
+                </div><!-- .info end -->
+            </article>
+
+            <article>
+                <figure>
+                    <img src="img/res_change.png" alt="" />
+                </figure>
+                <div>
+                    <h4>반응형 레이아웃 변화</h4>
+                    <p><span>#반응형</span> #미디어쿼리 #media screen #responsive #max-width</p>
+                    <ul>
+                        <li><a href="https://jwebdew.github.io/res_change/">Design</a></li>
+                        <li><a href="https://github.com/jwebdew/res_change">Code</a></li>
+                    </ul>
+                </div><!-- .info end -->
+            </article>
+
+            <article>
+                <figure>
+                    <img src="https://via.placeholder.com/300px300/f25a38/fff/?text=responsive" alt="" />
+                </figure>
+                <div>
+                    <h4>반응형 기초</h4>
+                    <p><span>#반응형</span> #미디어쿼리 #media screen #responsive</p>
+                    <ul>
+                        <li><a href="sub/responsive.html">Design</a></li>
+                        <li><a href="https://codepen.io/hwebdew/pen/MWrLVRY">Code</a></li>
+                    </ul>
+                </div><!-- .info end -->
+            </article>
+
+            <article>
+                <figure>
+                    <img src="img/video.png" alt="" />
+                </figure>
+                <div>
+                    <h4>동영상 + 유튜브</h4>
+                    <p>#영상 #1단레이아웃 #글자스타일 #그라데이션 #video #position #youtube #mp4</p>
+                    <ul>
+                        <li><a href="https://jwebdew.github.io/youtube/동영상+유튜브.html">Design</a></li>
+                        <li><a href="https://github.com/jwebdew/youtube">Code</a></li>
+                    </ul>
+                </div><!-- .info end -->
+            </article>
+
+            <article>
+                <figure>
+                    <img src="https://via.placeholder.com/300px300/e1750e/fff/?text=before / after" alt="" />
+                </figure>
+                <div>
+                    <h4>가상선택자</h4>
+                    <p>#::before #::after #position</p>
+                    <ul>
+                        <li><a href="sub/beforeafter.html">Design</a></li>
+                        <li><a href="#">Code</a></li>
+                    </ul>
+                </div>
+            </article>
+
+            <article>
+                <figure>
+                    <img src="img/hover.png" alt="" />
+                </figure>
+                <div>
+                    <h4>hover효과만들기</h4>
+                    <p> #:hover #position #transform</p>
+                    <ul>
+                        <li><a href="sub/hover.html">Design</a></li>
+                        <li><a href="#">Code</a></li>
+                    </ul>
+                </div>
+            </article>
+
+            <article>
+                <figure>
+                    <img src="https://via.placeholder.com/300px300/143F6B/fff/?text=publishing" alt="" />
+                </figure>
+                <div>
+                    <h4>기초과정 계획안</h4>
+                    <p>#html #css #기초과정 #1일 3시간 #60시간 #20일</p>
+                    <ul>
+                        <li><a href="img/beginner.pdf" target="_blank">plan</a></li>
+                    </ul>
+                </div>
+            </article>
+
+
+
+
+
+
+
+        </div><!-- 03 -->
+
+        <div class="cont on"><!-- 04 -->
+            <article>
+                <figure>
+                    <img src="img/res_hd.png" alt="" />
+                </figure>
+                <div>
+                    <h4>스크롤 헤더 스타일 변경</h4>
+                    <p><span>#스크립트</span> #제이쿼리 #조건문 #헤더스타일변화</p>
+                    <ul>
+                        <li><a href="https://jwebdew.github.io/res_hd/">Design</a></li>
+                        <li><a href="https://github.com/jwebdew/res_hd">Code</a></li>
+                    </ul>
+                </div><!-- .info end -->
+            </article>
+        </div><!-- 04 -->
+    </section>
+    <footer>
+        <div>
+            <img src="../../img/footer_logo.png" alt="하수정" />
+            <address>Copyright 2022. hasujeong All rights reserved.</address>
+        </div>
+    </footer>
+</body>
+
+</html>
